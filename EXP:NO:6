@@ -1,0 +1,292 @@
+AIM: 
+To draw the diagrams[use case, activity, sequence, collaboration, class, state chart, 
+component, deployment, package] for the E-ticketing system. 
+SOFTWARE REQUIREMENTS SPECIFICATION
+ SL.N
+ SOFTWARE 
+SPECIFICATION
+ Hardware Requirements
+ Software Requirements
+ REQUIREMENTS 
+Problem Analysis and Project Plan
+Project description
+ Reference
+ HARDWARE REQUIREMENTS
+ : 
+ Intel Pentium Processor I3/I5 
+
+SOFTWARE REQUIREMENTS
+ : 
+Rational rose / Argo UML
+PROBLEM ANALYSIS AND PROJECT PLANNING 
+In the E-Ticketing system the main process is a applicant have to login the database then 
+the database verifies that particular username and password then the user must fill the details 
+about their personal details then selecting the flight and the database books the ticket then send it 
+to the applicant then searching the flight or else cancelling the process
+PROJECT DESCRIPTION: 
+This software is designed for supporting the computerized e-ticketing. This is widely 
+used by the passenger for reserving the tickets for their travel. This E-ticketing is organized by 
+the central system. The information is provided from the railway reservation system. 
+1.4 REFERENCES:
+ IEEE Software Requirement Specification format.
+ OOAD LAB 
+USE CASE DIAGRAM: 
+REGISTER NO: 
+This diagram will contain the actors, use cases which are given below 
+Actors: Passenger, Railway reservation system.. 
+Use case: Status, reservation, cancellation, enter the train number, enter the         
+number of seats, availability of seats, acceptance of ticket.
+ enter the train number
+ passenger
+ enter the number of seats
+ check for availability
+ central computer
+ acceptance of ticket
+ cancellation
+ accept seat
+ railway reservation system
+ OOAD LAB 
+REGISTER NO: 
+CLASS DIAGRAM:
+ This diagram consists of the following classes, attributes and their operations.
+ CLASSES
+ Central computer
+ ATTRIBUTES
+ Train name,
+ Passenger name
+ OPERATIONS
+ Reservation(), login()
+ Passenger
+ Railway reservation system
+ Passenger age
+ Train number
+ central management
+ train name
+ passenger name
+ reservation()
+ cancellation()
+ status()
+ login()
+ central management()
+ passenger1
+ passenger name
+ passenger age
+ train number
+ login()
+ passenger1()
+ Login()
+ Cancellation()
+ railway reservation system1
+ train number
+ train name
+ passenger name
+ status()
+ reservation()
+ cancellation()
+ railway reservation system1()
+ OOAD LAB 
+REGISTER NO: 
+ACTIVITY DIAGRAM
+ : 
+This diagram will have the activities as Start point, End point, Decision boxes as given 
+below: 
+Activities: enter the train number, enter the number of seats, acceptance of ticket, 
+accept seat. 
+Decision box: Check availability of seats whether it is present or not.
+ OOAD LAB 
+REGISTER NO: 
+enter the train 
+number
+ enter the 
+number of seats
+ not available
+ check for 
+waiting list
+ n
+ cancellatio
+ accept 
+seat
+ check availability
+ acceptanc
+ e of ticket
+ OOAD LAB 
+SEQUENCE DIAGRAM
+ :
+ REGISTER NO: 
+This diagram consists of the objects, messages and return messages. 
+Object: Passenger, Railway reservation system, Central computer.
+ passenger
+ passenger
+ railway management 
+system
+ railway management 
+system
+ enter the train number
+ enter number of seats
+ check availability of seats
+ central 
+computer
+ central 
+computer
+ seats not available
+ do you want to accept waiting list?
+ accept waiting list
+ request passenger details
+ passenger details entered
+ acceptance of ticket
+ seats are available
+ saving details
+ ticket confirmed
+ OOAD LAB 
+COLLABORATION DIAGRAM:
+ REGISTER NO: 
+This diagram contains the objects and actors. This will be obtained by the completion of 
+the sequence diagram and pressing the F5 key.
+ 1: enter the train number
+ 2: enter number of seats
+ 6: accept waiting list
+ 9: passenger details entered
+ passenger
+ 5: do you want to accept waiting list?
+ 8: request passenger details
+ 12: acceptance of ticket
+ 4: seats not available
+ 7: seats are available
+ 11: ticket confirmed
+ railway management 
+system
+ 3: check availability of seats
+ 10: saving details
+ central 
+computer
+ STATE CHART DIAGRAM:
+ It is a technique to describe the behavior of the system. It describes all the possible states 
+that a particular object gets into the object oriented technique. State diagram are drawn for a 
+single class to show to the lifetime behaviour of a single objects
+ login
+ fi ling 
+details
+ selecting 
+flight
+ book ticket
+ search
+ cancel
+ OOAD LAB 
+COMPONENT DIAGRAM:
+ REGISTER NO: 
+The component diagram is represented by figure dependency and it is a graph of design 
+of figure dependency. The component diagram's main purpose is to show the structural 
+relationships between the components of a systems. It is represented by boxed figure. 
+Dependencies are represented by communication association
+ E-ticketi
+ ng
+ login
+ filling 
+details
+ selecting 
+flight
+ OOAD LAB 
+DEPLOYMENT DIAGRAM:
+ REGISTER NO: 
+A deployment diagram in the unified modeling language serves to model the physical 
+deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of 
+artifacts to nodes according to the Deployments defined between them. It is represented by 3- 
+dimentional box. Dependencies are represented by communication association. 
+E-ticketi
+ ng
+ login
+ filling 
+details
+ selectin
+ g flight
+ OOAD LAB 
+PACKAGE DIAGRAM:
+ REGISTER NO: 
+A package diagram in unified modeling language that depicts the dependencies between 
+the packages that make up a model. A Package Diagram (PD) shows a grouping of elements in 
+the OO model, and is a Cradle extension to UML. PDs can be used to show groups of classes in 
+Class Diagrams (CDs), groups of components or processes in Component Diagrams (CPDs), or 
+groups of processors in Deployment Diagrams (DPDs). 
+There are three types of layer. They are 
+o User interface layer 
+o Domain layer 
+o Technical services layer 
+passenger 
+name
+ age
+ passenger
+ train number
+ railway reservation
+ train name
+ train number
+ reservation
+ central management system
+ status
+ login
+ central 
+management
+ OOAD LAB 
+PROGRAM 
+CODING:
+ REGISTER NO: 
+PASSENGER:
+ Public class passenger
+ {
+ Public integer passenger passenger name;
+ Public integer passenger passenger age;
+ Public integer train no;
+ Public void passenger()
+ {
+ }
+ Public void new operation()
+ {
+ }
+ }
+ CENTRAL MANAGEMENT SYSTEM:
+ Public class central management
+ {
+ Public integer train name;
+ Public integer passenger name;
+ Public void reservation()
+ {
+ }
+ Public void cancellation()
+ {
+ OOAD LAB 
+}
+ REGISTER NO: 
+Public void status()
+ {
+ }
+ Public void login()
+ {
+ }
+ Private void management()
+ {
+ }
+ }
+ RAILWAY RESERVATION SYSTEM:
+ Public class railway reservation system
+ {
+ Public integer trainno;
+ Public integer train name;
+ Public integer passenger name;
+ Public void status()
+ {
+ }
+ Public void reservation()
+ {
+ }
+ Public void cancellation()
+ {
+ OOAD LAB 
+}
+ REGISTER NO: 
+Public void railway reservation system()
+ {
+ }
+ }
+  RESULT: 
+ Thus the diagrams[use case, activity, sequence, collaboration, class, statechart, 
+component, deployment, package] for the E-ticketing system has been designed, executed and 
+output is verified.
