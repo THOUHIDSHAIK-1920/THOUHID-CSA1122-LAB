@@ -1,0 +1,226 @@
+ E-BOOK MANAGEMENT SYSTEM
+ AIM: 
+To draw the diagrams [usecase, activity, sequence, collaboration, class, statechart, 
+component, deployment, package ] for E-book management system.
+ SOFTWARE REQUIREMENTS SPECIFICATION
+ SOFTWARE 
+SPECIFICATION
+ Hardware Requirements
+ Software Requirements
+ Problem Analysis and Project Plan
+ Project description
+ REQUIREMENTS 
+Reference
+ 1.0 
+HARDWARE REQUIREMENTS
+ : 
+ Intel Pentium Processor I3/I5 
+1.1 
+SOFTWARE REQUIREMENTS
+ : 
+ Rational rose / Argo UML 
+1.2 PROBLEM ANALYSIS AND PROJECT PLANNING 
+E-book Management System gives an idea about how books are maintained in the 
+particular websites. The books that are to be purchased, the books that are to be sold are 
+maintained here. . Further some additional details of the current books that is available in the 
+store are also given. E book Management System in this project is done in an authorized way. 
+The password and user id has been set here.
+ 1.3 
+PROJECT DESCRIPTION: 
+This software is designed to manage the books that were read through the internet. This 
+consists of the details of the e-book that were read by the user online. It will be controlled by the 
+central system. This system act as a backup of all details together. 
+OOAD LAB 
+REGISTER NO: 
+1.4 REFERENCES:
+ IEEE Software Requirement Specification format.
+ USE CASE DIAGRAM: 
+This diagram will contain the actors, use cases which are given below 
+Actors: user, e-book management 
+Use case: login ,search books, download ,pay for the books, logout .
+ login
+ search books
+ user
+ download
+ bill issue
+ pay for the books
+ logout
+ verification
+ e-book manager
+ central system
+ OOAD LAB 
+REGISTER NO: 
+CLASS DIAGRAM:
+         This diagram consists of the following classes, attributes and their operations.
+ CLASSES
+ Internet
+ ATTRIBUTES
+ Enter id, login, logout
+ OPERATIONS
+ Surf book()
+ User
+ E-book management system
+ Login, logout
+ verify user
+ internet
+ enter id
+ download
+ login
+ logout
+ verify()
+ status()
+ user1
+ login
+ logout
+ surf books()
+ Surf book()
+ check availability()
+ e-book management Class3
+ enter id
+ verify user
+ check availability()
+ OOAD LAB 
+REGISTER NO: 
+ACTIVITY DIAGRAM
+ : 
+This diagram will have the activities as Start point ,End point, Decision boxes as given 
+below: 
+Activities: Search for the e-book site,search for the book,download book 
+Decision box: check availability
+ search for website
+ enter the user name 
+& password
+ search for the books
+ available
+ no
+ yes
+ pay the book amount 
+& get the bill
+ OOAD LAB 
+REGISTER NO: 
+SEQUENCE DIAGRAM:
+ This diagram consists of the objects, messages and return messages. 
+Object: User ,E-book management ,Internet
+ OOAD LAB 
+REGISTER NO: 
+user
+ user
+ e-book 
+management
+ e-book 
+management
+ 1: done
+ internet
+ internet
+ 2: connect
+ 4: done
+ 5: download
+ COLLABORATION DIAGRAM:
+ 8: successfully downloaded
+ 10: issue bill
+ 3: provided
+ 6: verification
+ 7: download
+ 9: bill
+ This diagram contains the objects and actors. This will be obtained by the completion of 
+the sequence diagram and pressing the F5 key.
+ OOAD LAB 
+REGISTER NO: 
+1: done
+ 5: download
+ user
+ 4: done
+ 8: successfully downloaded
+ 10: issue bill
+ 3: provided
+ 7: download
+ 9: bill
+ e-book 
+management
+ 2: connect
+ 6: verification
+ internet
+ STATECHART DIAGRAM:
+ It is a technique to describe the behavior of the system. It describes all the possible states 
+that a particular object gets into the object oriented technique. State diagram are drawn for a 
+single class to show to the lifetime behaviour of a single objects.
+ login
+ select the 
+books
+ buy books
+ COMPONENT DIAGRAM:
+ The component diagram is represented by figure dependency and it is a graph of design 
+of figure dependency. The component diagram's main purpose is to show the structural 
+relationships between the components of a systems. It is represented by boxed figure. 
+Dependencies are represented by communication association.
+ OOAD LAB 
+REGISTER NO: 
+OOAD LAB 
+e-book management 
+system
+ customer datdbase
+ DEPLOYMENT DIAGRAM:
+ A deployment diagram in the unified modeling language serves to model the physical 
+deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of 
+artifacts to nodes according to the Deployments defined between them. It is represented by 3- 
+dimentional box. Dependencies are represented by communication association
+REGISTER NO: 
+e-book management 
+system
+ select book
+ PACKAGE DIAGRAM:
+ payment
+ A package diagram in unified modeling language that depicts the dependencies 
+between the packages that make up a model. A Package Diagram (PD) shows a grouping of 
+elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups 
+of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams 
+(CPDs), or groups of processors in Deployment Diagrams (DPDs). 
+There are three types of layer. They are 
+OOAD LAB 
+o User interface layer 
+REGISTER NO: 
+o Domain layer 
+o Technical services layer
+ OOAD LAB 
+REGISTER NO: 
+OOAD LAB 
+PROGRAM CODING:
+ REGISTER NO: 
+E-BOOK MANAGEMENT:
+ public class e-book management extends internet
+ {
+ public Integer enterid;
+ public Integer verifyuser;
+ public void checkavailability()
+ {
+ }
+ }
+ USER: 
+public class user1 extends internet 
+{
+ public Integer login;
+ public Integer logout;
+ public void surfbooks()
+ {
+ }
+ } 
+CENTRAL SYSTEM: 
+public class central system
+ {
+  public Integer enterid;
+  public Integer download;
+  public Integer login;
+  public Integer logout;
+  public void verify() 
+{
+ }
+ OOAD LAB 
+REGISTER NO: 
+public void status() 
+{
+ }
+ }
+ RESULT
+ :
+ Thus the draw the diagrams [usecase, activity, sequence, collaboration, class, statechart, 
+component, deployment, package ] for E-book management system
